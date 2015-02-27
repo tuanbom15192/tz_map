@@ -1,3 +1,11 @@
+(function (window, $) {
+    'use strict';
+    var OE;
+
+    // Make it global
+    window.OE = OE;
+})(window, jQuery);
+
 (function ($, OE, document) {
     var $doc = $(document);
 
